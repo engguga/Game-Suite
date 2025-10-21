@@ -1,0 +1,22 @@
+{
+  "themes": {
+    "animals": {
+      "name": "Animals",
+      "description": "Cute animal illustrations",
+      "image_count": 16,
+      "card_back": "card_back_blue.png"
+    },
+    "fruits": {
+      "name": "Fruits", 
+      "description": "Colorful fruit images",
+      "image_count": 12,
+      "card_back": "card_back_green.png"
+    },
+    "symbols": {
+      "name": "Symbols",
+      "description": "Geometric shapes and symbols",
+      "image_count": 8,
+      "card_back": "card_back_red.png"
+    }
+  }
+}
