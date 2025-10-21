@@ -1,0 +1,69 @@
+{
+  "games": {
+    "tetris": {
+      "name": "Tetris Pro",
+      "description": "Classic falling blocks puzzle game",
+      "difficulty_levels": ["Beginner", "Normal", "Advanced", "Expert"],
+      "grid_size": {"width": 10, "height": 20},
+      "initial_speed": 1.0,
+      "features": ["Hold piece", "Next preview", "T-Spins", "Hard drop"]
+    },
+    "domino": {
+      "name": "Domino Master", 
+      "description": "Strategic tile-based game",
+      "difficulty_levels": ["Easy", "Medium", "Hard"],
+      "tile_set": "double_six",
+      "ai_strength": 0.7,
+      "variants": ["Block", "Draw", "Matador"]
+    },
+    "sudoku": {
+      "name": "Sudoku Genius",
+      "description": "Numerical logic puzzle challenge",
+      "difficulty_levels": ["Easy", "Medium", "Hard", "Expert"],
+      "grid_size": 9,
+      "hint_system": true,
+      "variants": ["Classic", "Killer", "Diagonal"]
+    },
+    "puzzle_2048": {
+      "name": "2048 Evolution",
+      "description": "Combine numbers to reach 2048",
+      "grid_sizes": [4, 5, 6],
+      "target_score": 2048,
+      "features": ["Smooth animations", "Undo system", "Statistics"]
+    },
+    "snake": {
+      "name": "Snake Evolution",
+      "description": "Control the snake and grow longer",
+      "grid_size": {"width": 20, "height": 20},
+      "initial_speed": 10,
+      "powerups": true,
+      "modes": ["Classic", "Portal", "Maze", "Speed"]
+    },
+    "memory": {
+      "name": "Memory Challenge", 
+      "description": "Find matching pairs of cards",
+      "grid_sizes": ["4x4", "4x5", "6x6"],
+      "themes": ["Cards", "Symbols", "Numbers", "Colors"],
+      "features": ["Timer", "Move counter", "Multiple themes"]
+    },
+    "sliding": {
+      "name": "Sliding Puzzle",
+      "description": "Rearrange pieces to form the complete image",
+      "grid_sizes": [3, 4, 5, 6],
+      "image_support": true,
+      "features": ["Hint system", "Auto-solve", "Custom images"]
+    },
+    "tictactoe": {
+      "name": "Tic-Tac-Toe Pro",
+      "description": "Classic game with advanced AI",
+      "grid_sizes": [3, 4, 5],
+      "ai_difficulty": ["Easy", "Medium", "Impossible"],
+      "features": ["Minimax AI", "Tournament mode", "Statistics"]
+    }
+  },
+  "system": {
+    "save_interval": 300,
+    "auto_update": false,
+    "analytics": true
+  }
+}

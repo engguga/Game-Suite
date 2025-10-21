@@ -1,0 +1,84 @@
+{
+  "achievements": {
+    "first_blood": {
+      "name": "First Blood",
+      "description": "Complete your first game in any mode",
+      "icon": "first_blood.png",
+      "points": 100,
+      "hidden": false,
+      "category": "general"
+    },
+    "tetris_master": {
+      "name": "Tetris Master",
+      "description": "Reach 100,000 points in Tetris",
+      "icon": "tetris_master.png", 
+      "points": 500,
+      "hidden": false,
+      "category": "tetris"
+    },
+    "domino_pro": {
+      "name": "Domino Professional",
+      "description": "Win 10 domino games on hard difficulty",
+      "icon": "domino_pro.png",
+      "points": 300,
+      "hidden": false,
+      "category": "domino"
+    },
+    "sudoku_solver": {
+      "name": "Sudoku Solver", 
+      "description": "Complete 50 sudoku puzzles",
+      "icon": "sudoku_solver.png",
+      "points": 400,
+      "hidden": false,
+      "category": "sudoku"
+    },
+    "memory_champion": {
+      "name": "Memory Champion",
+      "description": "Complete a 6x6 memory game in under 2 minutes",
+      "icon": "memory_champion.png",
+      "points": 350,
+      "hidden": false,
+      "category": "memory"
+    },
+    "snake_legend": {
+      "name": "Snake Legend",
+      "description": "Reach 1000 points in Snake",
+      "icon": "snake_legend.png",
+      "points": 250,
+      "hidden": false,
+      "category": "snake"
+    },
+    "puzzle_grandmaster": {
+      "name": "Puzzle Grandmaster",
+      "description": "Complete all puzzle games at least once",
+      "icon": "puzzle_grandmaster.png", 
+      "points": 1000,
+      "hidden": true,
+      "category": "general"
+    },
+    "speed_demon": {
+      "name": "Speed Demon",
+      "description": "Complete any game in under 60 seconds",
+      "icon": "speed_demon.png",
+      "points": 200,
+      "hidden": false,
+      "category": "general"
+    },
+    "perfectionist": {
+      "name": "Perfectionist",
+      "description": "Achieve a perfect score in any game",
+      "icon": "perfectionist.png",
+      "points": 750,
+      "hidden": true,
+      "category": "general"
+    }
+  },
+  "categories": {
+    "general": "General Achievements",
+    "tetris": "Tetris Achievements",
+    "domino": "Domino Achievements", 
+    "sudoku": "Sudoku Achievements",
+    "memory": "Memory Game Achievements",
+    "snake": "Snake Game Achievements"
+  }
+}
