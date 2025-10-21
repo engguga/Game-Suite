@@ -1,0 +1,28 @@
+game:
+  title: "Game Suite"
+  version: "1.0.0"
+  resolution:
+    width: 1280
+    height: 720
+    fullscreen: false
+
+audio:
+  master_volume: 0.8
+  music_volume: 0.6
+  sfx_volume: 0.8
+  enabled: true
+
+graphics:
+  vsync: true
+  fps_limit: 60
+  show_fps: false
+  particles: true
+
+controls:
+  key_repeat_delay: 200
+  key_repeat_interval: 50
+
+debug:
+  show_collisions: false
+  log_performance: false
+  developer_mode: false
