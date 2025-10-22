@@ -151,8 +151,8 @@ class MenuManager:
                 from games.puzzle_2048.game import Puzzle2048Game
                 self.engine.switch_to_game(Puzzle2048Game)
             elif game_id == "sliding":
-                # Placeholder for sliding puzzle
-                print("Sliding puzzle selected - not yet implemented")
+                from games.sliding.game import SlidingPuzzleGame
+                self.engine.switch_to_game(SlidingPuzzleGame)
             elif game_id == "snake":
                 from games.snake.game import SnakeGame
                 self.engine.switch_to_game(SnakeGame)
