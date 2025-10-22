@@ -157,8 +157,8 @@ class MenuManager:
                 from games.snake.game import SnakeGame
                 self.engine.switch_to_game(SnakeGame)
             elif game_id == "sudoku":
-                # Placeholder for sudoku game
-                print("Sudoku game selected - not yet implemented")
+                from games.sudoku.game import SudokuGame
+                self.engine.switch_to_game(SudokuGame)
             elif game_id == "domino":
                 # Placeholder for domino game
                 print("Domino game selected - not yet implemented")
